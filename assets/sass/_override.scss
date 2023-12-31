@@ -28,31 +28,3 @@ $newFontSizes: (
         font-size: $value;
     }
 }
-
-
-
-/* $sizes: (
-    25: 25%,
-    50: 50%,
-    75: 75%,
-    100: 100%,
-);
-
-$grid-breakpoints: (
-  xs: 0,
-  sm: 576px,
-  md: 768px,
-  lg: 992px,
-  xl: 1200px,
-  xxl: 1400px
-);
-
-@each $breakpoint in map-keys($grid-breakpoints) {
-    @each $size, $length in $sizes {
-        @include media-breakpoint-up($breakpoint) {
-            .w-#{$breakpoint}-#{$size} {
-                width: $length !important;
-            }
-        }
-    }
-} */

@@ -36,10 +36,4 @@ html {
 .nav-img {
   width: 40px;
   height: 40px;
-}
-
-#trending img:hover,
-#watch-again img:hover,
-#new-releases img:hover {
-  transform: scale(1.1);
 }/*# sourceMappingURL=style.css.map */
